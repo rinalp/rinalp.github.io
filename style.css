@@ -1,0 +1,275 @@
+/** {
+	border: 1px solid red !important;
+}*/
+
+.debug{
+	border: 1px solid red !important;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before,*:after {
+    -webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+				box-sizing: border-box;
+} 
+
+/** FRAMEWORK **/
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row{
+	width: 100%;
+	/**margin-bottom: 20px;**/
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.col-1{
+	width: 8.33%;
+}
+
+.col-2{
+	width: 16.66%;
+}
+
+.col-3{
+	width: 25%;
+}
+
+.col-4{
+	width: 33.33%;
+}
+
+.col-5{
+	width: 41.66%;
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.33%;
+}
+
+.col-8{
+	width: 66.66%;
+}
+
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.33%;
+}
+
+.col-11{
+	width: 91.66%;
+}
+
+.col-12{
+	width: 100%;
+}
+
+/**TYPOGRAPHY**/
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #333333;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+h1 a{
+	text-decoration: none;
+	/**color: #333333;**/
+	color: #57B6CC;
+}
+
+h1 a:hover{
+	color: #57B6CC;
+}
+
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #999999;
+	font-size: 1em;
+}
+
+nav a:hover{
+	color: #57B6CC;
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+	font-size:1.2em;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size:1em;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+footer{
+	font-size:0.8em;
+}
+
+h3.project_content{
+	text-align: center;
+	text-transform: uppercase;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+h3.project_content a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #999999;
+	font-size: 1em;
+}
+h3.project_content a:hover{
+	color: #57B6CC;
+	font-weight: bold;
+}
+
+/**SPACING**/
+header{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+footer{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.bodyText{
+	padding-left: 5px;
+}
+
+
+.portfolio_cell{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.project_content{
+	display: block;
+	margin:5px auto;
+}
+
+/**NAVIGATION**/
+nav{
+	text-align: right;
+}
+nav li{
+	display: inline-block;
+	margin: 0 10px;
+}
+li a {
+	display: block;
+}
+a.selected{
+	color: #57B6CC;
+	font-weight: bold;
+}
+
+hr.style{
+	border-top: 1px double #333333;
+	margin-top: 10px;
+}
+
+
+/**LISTS**/
+.contentList{
+	list-style-type: disc;
+	margin-left:0;
+	padding-left: 1em;
+}
+
+/**FORM**/
+fieldset{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+input, textarea {
+  border: 1px solid #999999;
+  border-radius: 5px;
+}
+
+button{
+	border-radius: 5px;
+	border: 1px solid #999999;
+	font-size:1em;
+	color: #333333;
+	background-color: #ffffff;
+	padding: 5px 10px;
+	display: block;
+	float: right;
+}
+
+button:hover{
+	color:#57B6CC;
+}

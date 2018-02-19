@@ -1,47 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="main.css">
 		<title>Rinal Patel</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 	</head>
-	<body>
-		<header>
-			<h1><a href="index.html">Rinal Patel</a></h1>
-			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="https://ca.linkedin.com/in/rinal-patel-1774a25">Resume</a>
-				<a href="https://rinalp.wordpress.com/">Blog</a>
-				<a href="contact.html">Contact</a>
+	<body class="grid">
+		<header class="row">
+			<h1 class="logo col-6"><a href="index.html">Rinal Patel</a></h1>
+			<nav class="col-6">
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="">Resume</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a class="selected" href="contact.html">Contact</a></li>
+				</ul>
 			</nav>
+			<hr class="row style">
 		</header>
-		<div>
-			<h2>Contact</h2>
-			<form class="" action="" method="post" name="contact_form">
-				<li>
-					<label for="name">Name:</label>
-					<input type="text" name="name" />
-				</li>
-				<li>
-					<label for="email">Email:</label>
-					<input type="text" name="email" />
-				</li>
-				<li>
-					<label for="subject">Subject:</label>
-					<input type="text" name="subject" />
-				</li>
-				<li>
-					<label for="message">Message:</label>
-					<textarea name="message" cols="40" rows="6" ></textarea>
-				</li>
-				<li>
-					<!--<button class="submit" type="submit">Submit</button>-->
-				</li>
-			</form>
+		<div class="row">
+			<div class="col-1"></div>
+			<div class="col-10 bodyText">
+				<h3 class="row">Coming Soon...</h3>
+				<form class="row" action="" method="post" name="contact_form">
+					<fieldset class="row">
+						<label class="col-3" for="name">Name:</label>
+						<input class="col-9" type="text" name="name" />
+					</fieldset>
+					<fieldset class="row">
+						<label class="col-3" for="email">Email:</label>
+						<input class="col-9" type="text" name="email" />
+					</fieldset>
+					<fieldset class="row">
+						<label class="col-3" for="subject">Subject:</label>
+						<input class="col-9" type="text" name="subject" />
+					</fieldset>	
+					<fieldset class="row">
+						<label class="col-3" for="message">Message:</label>
+						<textarea class="col-9" name="message" cols="40" rows="6" ></textarea>
+					</fieldset>
+					<fieldset class="row">
+						<div class="col-9">
+							<!--<button class="submit" type="submit">Submit</button>-->
+						</div>
+						<div style="clear: both;"></div>
+						<div class="col-3"></div>
+					</fieldset>	
+				</form>	
+			</div>
+			<div class="col-1"></div>
 		</div>
-		<footer>
-			<p>&copy; 2018 Rinal Patel</p>
+		<footer class="row">
+			<hr class="row style">
+			<small class="col-6">&copy; Rinal Patel 2018</small>
+			<nav class="col-6">
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="">Resume</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
 		</footer>
 	</body>
 </html>
